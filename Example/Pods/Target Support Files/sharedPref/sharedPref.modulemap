@@ -1,0 +1,6 @@
+framework module sharedPref {
+  umbrella header "sharedPref-umbrella.h"
+
+  export *
+  module * { export * }
+}
