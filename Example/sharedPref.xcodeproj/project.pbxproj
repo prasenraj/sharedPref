@@ -12,18 +12,15 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* prasenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* prasenAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* prasenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* prasenViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		7669461A7C13FA8164C60B21 /* Pods_sharedPref_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18398DC88BB0C4DAF4CC8ABB /* Pods_sharedPref_Example.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		95CFBD60636C4A49424CB33B /* Pods_sharedPref_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 442E62CE7D3F8E0580F3D076 /* Pods_sharedPref_Tests.framework */; };
+		F957631D20AAB66C001041E4 /* Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = F957631B20AAB66B001041E4 /* Shared.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1084730182762F8F28AA9365 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1084730182762F8F28AA9365 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		151C26D7965445A5CDA51C8F /* Pods-sharedPref_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPref_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharedPref_Example/Pods-sharedPref_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18398DC88BB0C4DAF4CC8ABB /* Pods_sharedPref_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sharedPref_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2704804778D12E108A08544B /* Pods-sharedPref_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPref_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharedPref_Example/Pods-sharedPref_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -50,10 +47,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* sharedPref-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sharedPref-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* prasenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prasenAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* prasenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prasenAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* prasenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = prasenViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* prasenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prasenViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* sharedPref_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sharedPref_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,12 +54,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		988FB7DA81445EA18F8FC695 /* sharedPref.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = sharedPref.podspec; path = ../sharedPref.podspec; sourceTree = "<group>"; };
+		988FB7DA81445EA18F8FC695 /* sharedPref.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = sharedPref.podspec; path = ../sharedPref.podspec; sourceTree = "<group>"; };
 		ADDC0FB2F025BD98EA7E4725 /* Pods-sharedPref_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPref_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sharedPref_Tests/Pods-sharedPref_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AF17DBB6C3D0A3FADD9DF261 /* Pods-sharedPref_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sharedPref_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sharedPref_Tests/Pods-sharedPref_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E71B42C8E0EE1F05A5768899 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E71B42C8E0EE1F05A5768899 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F957631B20AAB66B001041E4 /* Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Shared.m; path = ../../sharedPref/Shared.m; sourceTree = "<group>"; };
+		F957631C20AAB66C001041E4 /* Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shared.h; path = ../../sharedPref/Shared.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,12 +125,8 @@
 		6003F593195388D20070C39A /* Example for sharedPref */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* prasenAppDelegate.h */,
-				6003F59D195388D20070C39A /* prasenAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* prasenViewController.h */,
-				6003F5A6195388D20070C39A /* prasenViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				F957631C20AAB66C001041E4 /* Shared.h */,
+				F957631B20AAB66B001041E4 /* Shared.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -279,8 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -406,8 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* prasenAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* prasenViewController.m in Sources */,
+				F957631D20AAB66C001041E4 /* Shared.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,14 +431,6 @@
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
